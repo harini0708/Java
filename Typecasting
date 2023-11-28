@@ -1,0 +1,27 @@
+package com.practiceproject;
+
+public class Typecasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// implicit type casting
+		byte a='a';
+	    short b=a;
+		System.out.println(b);
+		
+		int c=b;
+	    System.out.println(c);
+	    
+	    long d=c;
+		System.out.println(d);
+		//explicit type casting
+		int e=(int)d;
+		System.out.println(e);
+		
+        short f=(short)e;
+		System.out.println(f);
+		
+		
+	}
+
+}
